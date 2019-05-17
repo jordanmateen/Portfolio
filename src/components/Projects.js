@@ -3,7 +3,7 @@ import React from 'react'
 
 const Projects = () =>{
     return (
-        <div id = "section_2"className=" container">
+        <div id = "section_2" className=" container">
 
             <h3 class = "center">Featured Projects</h3>
 
@@ -11,7 +11,7 @@ const Projects = () =>{
                 <div class="col s12 m6">
                 <div class="card">
                     <div class="card-image">
-                    <img src = {require ('../images/Lituation.png')}/>
+                    <img src = {require ('../images/Lituation.png')} alt = "Lituation"/>
                     <a href="http://lituation.me/" class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">arrow_forward</i></a>
                     </div>
                     <div class="card-content">
@@ -36,7 +36,7 @@ const Projects = () =>{
                 <div class="col s12 m6">
                 <div class="card">
                     <div class="card-image">
-                    <img src = {require ('../images/ChatRoom.png')}/>
+                    <img src = {require('../images/ChatRoom.png')} alt = "chat room"/>
                     <a href="http://chatdc.herokuapp.com" class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">arrow_forward</i></a>
                     </div>
                     <div class="card-content">
@@ -62,13 +62,33 @@ const Projects = () =>{
                 <div class="col s12 m12">
                     <div class="card">
                         <div class="card-content">
+                            <span class="card-title">Star Wars Wiki-Verse</span>
+                            <p>
+                                Wiki Application highlights the all the characters, planets, and vehicle information within the starwars universe.
+                                I focused on React Router to access components that link to other resources within the application. 
+                            </p>
+                            <p>Technologies: React, Redux, Node, Express, SWAPI (Star Wars API)</p>
+                        </div>
+                        <div class="card-action">
+                        <a class="waves-effect waves-light btn green" href = "https://github.com/jordanmateen/StarWarsWiki"><i class="material-icons left">developer_mode</i>See Code</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col s12 m12">
+                    <div class="card">
+                        <div class="card-content">
                             <span class="card-title">Defintion Bee</span>
                             <p>Light Weight full stack game built using React. This madularized application renders a random defintion and the users habe to correctly guess the associated word. 
                                 Designed with a RESTful backed server utilizing NPM technologies for models and endpoints. Fron-end state managed in Redux. </p>
                             <p>Technologies: React, Redux, Node, Express, MongoDB, React Bootstrap</p>
                         </div>
                         <div class="card-action">
-                        <a class="waves-effect waves-light btn green"><i class="material-icons left">developer_mode</i>See Code</a>
+                        <a class="waves-effect waves-light btn green" href = "https://github.com/jordanmateen/DefinitionBee"><i class="material-icons left">developer_mode</i>See Code</a>
                             
                         </div>
                     </div>
