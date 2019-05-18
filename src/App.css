@@ -23,6 +23,13 @@
   color: white;
 }
 
+.footer{
+  background-color: #282c34;
+  min-height: 20vh;
+  color: white
+}
+
+
 .App-link {
   color: #61dafb;
 }

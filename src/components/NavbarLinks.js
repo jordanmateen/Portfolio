@@ -1,25 +1,18 @@
 import React from 'react'
-import ScrollspyNav from "react-scrollspy-nav";
+import { Link } from 'react-router-dom'
 
 
 const NavbarLinks = () => {
     return(
 
-        <ScrollspyNav
-            scrollTargetIds={["section_1", "section_2", "section_3"]}
-            activeNavClass="is-active"
-            scrollDuration="500"
-            headerBackground="true"
-        >
+        <div>
+            <Link to = '/' className = "brand-logo col s12">#Portfolio</Link>
             <ul className="right">
-                <li><a href="#section_2" className = 'btn btn-floating indigo lighten-2'>&lt;/&gt;</a></li>
-                <li><a href="#section_3" className = 'btn btn-floating indigo lighten-2'> &#123; &#125; </a></li>
-                <li><a href="#section_4" className = 'btn btn-floating indigo lighten-2'> &#35;</a></li>
-                <li><a href="#section_1" className = 'btn btn-floating indigo lighten-2'>AB</a></li>
+                <li><a href="https://github.com/jordanmateen?tab=repositories/" class="waves-effect waves-light btn indigo lighten-2">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/jordan-mateen-2a6038100/" class="waves-effect waves-light btn indigo"><i class="material-icons left">account_circle</i>connect</a></li>
             </ul>
-        
-        </ScrollspyNav>
-       
+      
+        </div>
     )
 }
 
