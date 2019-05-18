@@ -4,6 +4,7 @@ import Image from './components/HomeImg'
 import Nametag from './components/Nametag'
 import NavBar from './components/Navbar'
 import Body from './components/Body'
+import Footer from './components/Footer'
 
 import './App.css';
 
@@ -19,6 +20,7 @@ class App extends Component {
             <Nametag/>
           </header>
           <Body/>
+          <Footer/>
         </div>
       </BrowserRouter>
     );

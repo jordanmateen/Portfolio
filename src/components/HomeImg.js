@@ -6,7 +6,7 @@ const Image = () =>{
 
         <div >
             <Welcome/>
-            <img className = "profile" src = {require("../images/jordan3.jpeg")} alt = "jordan"/>
+            <img className = "profile" src = {require("../images/jordan-stripes.jpg")} alt = "jordan"/>
         </div>
         
     )
